@@ -170,17 +170,17 @@ vim-mode-bindkey viins       -- edit-command-line                  '^X^E'
 vim-mode-bindkey       vicmd -- edit-command-line                  '^V'
 
 # history-substring-search {{{1
-if [[ -n $HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND ]]; then
-    vim-mode-bindkey viins vicmd -- history-substring-search-up         '^P'
-    vim-mode-bindkey viins vicmd -- history-substring-search-down       '^N'
-    vim-mode-bindkey viins vicmd -- history-substring-search-up         Up
-    vim-mode-bindkey viins vicmd -- history-substring-search-down       Down
-else
-    vim-mode-bindkey viins vicmd -- history-beginning-search-backward   '^P'
-    vim-mode-bindkey viins vicmd -- history-beginning-search-forward    '^N'
-    vim-mode-bindkey viins vicmd -- history-beginning-search-backward   Up
-    vim-mode-bindkey viins vicmd -- history-beginning-search-forward    Down
-fi
+#if [[ -n $HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND ]]; then
+#    vim-mode-bindkey viins vicmd -- history-substring-search-up         '^P'
+#    vim-mode-bindkey viins vicmd -- history-substring-search-down       '^N'
+#    vim-mode-bindkey viins vicmd -- history-substring-search-up         Up
+#    vim-mode-bindkey viins vicmd -- history-substring-search-down       Down
+#else
+#    vim-mode-bindkey viins vicmd -- history-beginning-search-backward   '^P'
+#    vim-mode-bindkey viins vicmd -- history-beginning-search-forward    '^N'
+#    vim-mode-bindkey viins vicmd -- history-beginning-search-backward   Up
+#    vim-mode-bindkey viins vicmd -- history-beginning-search-forward    Down
+#fi
 
 
 # Enable surround text-objects (quotes, brackets) {{{1
